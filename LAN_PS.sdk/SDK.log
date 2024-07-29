@@ -1,0 +1,30 @@
+12:50:50 INFO  : Registering command handlers for SDK TCF services
+12:50:50 INFO  : Launching XSCT server: xsct.bat -interactive D:\Projects\ZYNQ_Taksun\PRJ_4\LAN_PS\LAN_PS.sdk\temp_xsdb_launch_script.tcl
+12:50:54 INFO  : XSCT server has started successfully.
+12:50:54 INFO  : Successfully done setting XSCT server connection channel  
+12:50:56 INFO  : Successfully done setting SDK workspace  
+12:50:56 INFO  : Processing command line option -hwspec D:/Projects/ZYNQ_Taksun/PRJ_4/LAN_PS/LAN_PS.sdk/design_1_wrapper.hdf.
+17:48:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:48:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+20:11:05 INFO  : Registering command handlers for SDK TCF services
+20:11:05 INFO  : Launching XSCT server: xsct.bat -interactive D:\Projects\ZYNQ_Taksun\PRJ_4\LAN_PS\LAN_PS.sdk\temp_xsdb_launch_script.tcl
+20:11:07 INFO  : XSCT server has started successfully.
+20:11:08 INFO  : Successfully done setting XSCT server connection channel  
+20:11:08 INFO  : Successfully done setting SDK workspace  
+20:11:08 INFO  : Processing command line option -hwspec D:/Projects/ZYNQ_Taksun/PRJ_4/LAN_PS/LAN_PS.sdk/design_1_wrapper.hdf.
+20:11:12 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:13:18 INFO  : Registering command handlers for SDK TCF services
+20:13:19 INFO  : Launching XSCT server: xsct.bat -interactive D:\Projects\ZYNQ_Taksun\PRJ_4\LAN_PS\LAN_PS.sdk\temp_xsdb_launch_script.tcl
+20:13:21 INFO  : XSCT server has started successfully.
+20:13:21 INFO  : Successfully done setting XSCT server connection channel  
+20:13:21 INFO  : Successfully done setting SDK workspace  
+20:13:21 INFO  : Processing command line option -hwspec D:/Projects/ZYNQ_Taksun/PRJ_4/LAN_PS/LAN_PS.sdk/design_1_wrapper.hdf.
+20:13:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:31:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:31:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
