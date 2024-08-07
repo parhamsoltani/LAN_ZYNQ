@@ -1,7 +1,7 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vivado
-# Edit at https://www.toptal.com/developers/gitignore?templates=vivado
+# Created by https://www.toptal.com/developers/gitignore/api/xilinxvivado
+# Edit at https://www.toptal.com/developers/gitignore?templates=xilinxvivado
 
-### Vivado ###
+### XilinxVivado ###
 #########################################################################################################
 ##	This is an example .gitignore file for Vivado, please treat it as an example as
 ##	it might not be complete. In addition, XAPP 1165 should be followed.
@@ -16,19 +16,13 @@
 #Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
 !*.vhd
 !*.v
-!*.sv
 !*.bd
 !*.edif
 #IP files
-#.xci: synthesis and implemented not possible - you need to return back to the previous version to generate output products
-#.xci + .dcp: implementation possible but not re-synthesis
-#*.xci(www.spiritconsortium.org)
+#.xci: IP-core property file with core container disabled
 !*.xci
-#.xcix: Core container file
-#.xcix: https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_2/ug896-vivado-ip.pdf (Page 41)
-!*.xcix
-#*.dcp(checkpoint files)
-!*.dcp
+#*.dcp (checkpoint files: better be ignored!)
+#!*.dcp
 !*.vds
 !*.pb
 #All bd comments and layout coordinates are stored within .ui
@@ -68,4 +62,4 @@
 !*.bmm
 !*.xmp
 
-# End of https://www.toptal.com/developers/gitignore/api/vivado
+# End of https://www.toptal.com/developers/gitignore/api/xilinxvivado
