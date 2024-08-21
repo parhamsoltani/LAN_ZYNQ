@@ -18,6 +18,7 @@ LAN_PS is a project that launches a UDP & TCP server in a LAN network on ZYNQ-70
 ## Important note
 The `xemacpsif_physpeed` file located in the following directory may require modifications based on the specific board and chip's part number:
 >LAN_PS.sdk\standalone_bsp_0\ps7_cortexa9_0\libsrc\lwip211_v1_0\src\contrib\ports\xilinx\netif
+
 Please ensure to review and adjust this file according to your hardware configuration for optimal performance.
 
 ## Main Components
